@@ -1,7 +1,10 @@
-def is_primo(numero):
-    if numero <= 1:
-        return False
-    for i in range(2, int(numero**0.5) + 1):
-        if numero % i == 0:
-            return False
-    return True
+# Precedência de operadores aritmeticos
+
+# 1. (n + n) - mais forte
+# 2. **
+# 3. * / // %
+# 4. + -
+
+conta_1 = (1 + int(0.5 + 0.5)) ** (5 + 5)
+
+print(conta_1) 
