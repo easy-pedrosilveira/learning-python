@@ -1,7 +1,10 @@
-nome = 'Luiz Otavio'
-altura = 1.80
-peso = 95
+nome = 'Pedro Neto'
+altura = 1.63
+peso = 71
 imc = peso / (altura * altura)
+# OU
+imc = peso / altura ** 2
 
-print(nome, 'tem', altura, 'de altura')
-print('pesa', peso, '', altura, 'de altura')
+print(nome, 'tem', str(altura), 'de altura')
+print('pesa', peso, 'quilos e seu IMC é')
+print(imc)
